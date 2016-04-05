@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.js"></script>
+  <!--TODO #1: add the angular-route.js script-->
+  
+  <script src="js/app.js"></script>
+  <script src="js/ctrl/movieDetailsCtrl.js"></script>
+  <script src="js/ctrl/movieListCtrl.js"></script>
+  <script src="js/service/movieService.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  
+</head>
+
+<body ng-app="coderMdb">
+
+
+  
+  <div class="container">
+    <!--TODO #2: show the active page here-->
+    <ng-view></ng-view>
+  
+  </div>
+</body>
+
+</html>
